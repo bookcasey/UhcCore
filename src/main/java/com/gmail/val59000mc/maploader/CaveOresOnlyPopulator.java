@@ -46,7 +46,10 @@ public class CaveOresOnlyPopulator extends BlockPopulator{
                     if (
                             type == Material.DIAMOND_ORE ||
                             type == Material.GOLD_ORE ||
-                            type == Material.LAPIS_ORE
+                            type == Material.LAPIS_ORE ||
+                            type == Material.REDSTONE_ORE ||
+                            type == Material.IRON_ORE ||
+                            type == Material.COAL_ORE
                     ){
                         Vein vein = new Vein();
                         vein.process(block);
